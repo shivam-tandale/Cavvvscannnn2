@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mypro"
+version = "0.1.0"
+description = ""
+authors = ["Gaurav Chaudhari <gauravchaudhari37@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+crewai = ">=0.95.0,<0.96.0"
+crewai-tools = ">=0.25.8,<0.26.0"
+pandas = "^2.2.3"
+langchain-cohere = "^0.3.4"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

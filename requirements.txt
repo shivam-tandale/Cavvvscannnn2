@@ -1,0 +1,8 @@
+crewai
+crewai_tools
+streamlit 
+pillow
+streamlit
+torch
+langchain_cohere
+tensor
